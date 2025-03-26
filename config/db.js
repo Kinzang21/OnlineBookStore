@@ -6,7 +6,38 @@ const db = pgp({
     port: 5432,  
     database: process.env.DB_NAME || 'bookstore_db',
     user: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASS || 'kinzang@123'
+    password: process.env.DB_PASS || 'yourpassword'
 });
 
 module.exports =db;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
